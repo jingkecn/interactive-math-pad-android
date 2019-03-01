@@ -1,3 +1,7 @@
+################################################################################
+# Android
+################################################################################
+
 # Built application files
 *.apk
 *.ap_
@@ -63,3 +67,21 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+
+# auto generated (MyScript)
+.idea/.name
+.idea/misc.xml
+.idea/modules.xml
+
+################################################################################
+# MyScript
+################################################################################
+
+# configuration files
+*.conf
+
+# resource files
+*.res
+
+# temporary folder
+temp/

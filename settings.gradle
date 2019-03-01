@@ -1,0 +1,20 @@
+/*
+ * Copyright (c) MyScript. All rights reserved.
+ */
+
+rootProject.name = 'interactive-math-pad-android'
+
+def myProjects = [
+        // applications
+        ':app'           : null,
+        // libraries
+        ':my-certificate': file("$settingsDir/certificate"),
+        ':myscript-iink' : file("$settingsDir/iink/ui/UIReferenceImplementation"),
+]
+
+myProjects.each { myProject, dir ->
+    logger.info("Including $myProject")
+    include myProject
+    if (dir != null)
+        project(myProject).projectDir = dir
+}
