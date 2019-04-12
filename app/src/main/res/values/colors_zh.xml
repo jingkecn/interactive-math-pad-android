@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) MyScript. All rights reserved.
+  ~ 配色來自中國色（http://zhongguose.com）
+  -->
+
+<resources>
+    <!-- 睛藍（http://zhongguose.com/#jinglan） -->
+    <color name="zhJingLan">#5698c3</color>
+    <!-- 星藍（http://zhongguose.com/#xinglan） -->
+    <color name="zhXingLan">#93b5cf</color>
+    <!-- 鷃蓝（http://zhongguose.com/#yanlan） -->
+    <color name="zhYanLan">#144a74</color>
+    <!-- 魚肚白（http://zhongguose.com/#yudubai） -->
+    <color name="zhYuDuBai">#f7f4ed</color>
+</resources>

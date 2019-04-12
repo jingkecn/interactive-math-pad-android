@@ -5,7 +5,7 @@
   -->
 
 <resources>
-    <color name="colorPrimary">#009FE3</color>
-    <color name="colorPrimaryDark">#008DC9</color>
-    <color name="colorAccent">@android:color/white</color>
+    <color name="colorPrimary">@color/zhJingLan</color>
+    <color name="colorPrimaryDark">@color/zhXingLan</color>
+    <color name="colorAccent">@color/zhYuDuBai</color>
 </resources>
