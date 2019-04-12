@@ -1,10 +1,19 @@
 Interactive Math Pad
 ====================
 
-![preview](https://raw.githubusercontent.com/jingkecn/myscript-iink-codelabs-android-kotlin/master/docs/images/app/math-pad/preview.gif)
+This is a reproduction of [MyScript MathPad](https://www.myscript.com/retired-apps) on Android platform, based on [MyScript Interactive Ink SDK](https://www.myscript.com/interactive-ink).
 
-> [!INFO]
-> This is a reproduction of the retired MyScript MathPad for Android.
+![preview](docs/images/preview.gif)
+
+> [!ACKNOWLEDGEMENTS]
+>
+> - [1] [MyScript Interactive Ink](https://www.myscript.com/interactive-ink)®
+> - [2] [中國色](http://zhongguose.com/)
 >
 > [!DISCLAIMER]
-> The software is for your study and reference only and the developer will not be responsible for its content.
+> **The software is for your study and reference only and the developer will not be responsible for its content.**
+
+LICENSE
+-------
+
+[MIT License](LICENSE).

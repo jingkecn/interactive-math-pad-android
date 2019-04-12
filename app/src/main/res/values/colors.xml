@@ -5,7 +5,12 @@
   -->
 
 <resources>
-    <color name="colorPrimary">#009FE3</color>
-    <color name="colorPrimaryDark">#008DC9</color>
+    <color name="colorPrimary">@color/chMudanfenhong</color>
+    <color name="colorPrimaryDark">@color/chManjianghong</color>
     <color name="colorAccent">@android:color/white</color>
+
+    <!-- 中國色（http://zhongguose.com） -->
+    <color name="chManjianghong">#a7535a</color>
+    <color name="chMudanfenhong">#eea2a4</color>
+    <color name="chShiruihong">#f0c9cf</color>
 </resources>
