@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) MyScript. All rights reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_undo"
+        android:icon="@drawable/ic_undo"
+        android:title="@string/menu_undo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_redo"
+        android:icon="@drawable/ic_redo"
+        android:title="@string/menu_redo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_clear"
+        android:icon="@drawable/ic_clear"
+        android:title="@string/menu_clear"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_convert"
+        android:icon="@drawable/ic_convert"
+        android:title="@string/menu_convert"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_export"
+        android:icon="@drawable/ic_export"
+        android:title="@string/menu_export"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu_export_latex"
+                android:icon="@drawable/ic_export"
+                android:title="@string/menu_export_latex"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/menu_export_math_ml"
+                android:icon="@drawable/ic_export"
+                android:title="@string/menu_export_math_ml"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

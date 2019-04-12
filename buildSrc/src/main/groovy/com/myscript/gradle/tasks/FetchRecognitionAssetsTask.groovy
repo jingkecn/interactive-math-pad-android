@@ -17,24 +17,15 @@ class FetchRecognitionAssetsTask extends DefaultTask {
     void fetchRecognitionAssets() {
         // Thanks to https://gitreleases.dev/
         def baseUrl = "https://gitreleases.dev/gh/jingkecn/myscript-iink-recognition-assets/latest"
-        def urls = [
-                "$baseUrl/myscript-iink-recognition-diagram.zip",
-                "$baseUrl/myscript-iink-recognition-raw-content.zip",
-                "$baseUrl/myscript-iink-recognition-math.zip",
-                "$baseUrl/myscript-iink-recognition-text-en_US.zip"
-        ]
+        def urls = ["$baseUrl/myscript-iink-recognition-math.zip"]
 
         def intoDir = project.file("$project.projectDir/src/main/assets")
         if (!intoDir.isDirectory())
             intoDir.mkdirs()
 
-        def diagramConf = project.file("$intoDir/conf/diagram.conf")
-        def rawContentConf = project.file("$intoDir/conf/raw-content.conf")
         def mathConf = project.file("$intoDir/conf/math.conf")
-        def enUSConf = project.file("$intoDir/conf/en_US.conf")
 
-        if (!diagramConf.exists() || !rawContentConf.exists() || !mathConf.exists()
-                || !enUSConf.exists()) {
+        if (!mathConf.exists()) {
             def fromDir = project.file("$intoDir/temp")
             if (!fromDir.isDirectory())
                 fromDir.mkdirs()
